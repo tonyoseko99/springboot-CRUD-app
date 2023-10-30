@@ -1,2 +1,25 @@
-.vscode
-.idea
+Here is a sample .gitignore file for a Java web application:
+
+```
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# IDE project files
+.idea/
+.project
+.classpath
+.vscode/
+
+# Build artifacts
+target/
+build/
+
+# Deployment artifacts
+*.war
+*.ear
