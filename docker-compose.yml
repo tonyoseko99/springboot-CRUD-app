@@ -6,7 +6,7 @@ services:
     image: tonnyseko/java_app:1.0.0
     build: .
     ports:
-      - 8080:8080
+      - 3080:3080
     environment:
       - DATABASE_URL=jdbc:postgresql://java_db:5432/postgres
       - DATABASE_USERNAME=postgres
